@@ -1,0 +1,306 @@
+@font-face {font-family: kontrapunkt; src: url('../vendors/kontrapunkt/Bold/KontrBol.ttf');}
+body{
+    font-family: kontrapunkt;
+    margin: 0;
+    padding: 0;
+}
+/*** GLOB ***/
+#main{
+    width: -moz-available;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: fixed;
+}
+.scrollable{
+    overflow-y: scroll;
+}
+.bg{
+    position: relative;
+    z-index: 0;
+}
+.bg0{
+    background-image: url('../images/bgs/bg0.png');
+}
+.config{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    z-index: 1;
+}
+.config img{
+    cursor: pointer;
+}
+@media(max-width: 480px){
+    .config img{
+        width: 24px;
+        margin-left: 4px;
+    }
+}
+@media(min-width: 480px){
+    .config img{
+        width: 36px;
+        margin-left: 6px;
+    }
+}
+@media(min-width: 640px){
+    .config img{
+        width: 48px;
+        margin-left: 8px;
+    }
+}
+/*** MENU ***/
+.buttons{
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 15%;
+    text-align: center;
+}
+button{
+    font-family: kontrapunkt;
+    display: block;
+    width: 100%;
+    margin-bottom: 10%;
+    -webkit-box-shadow: 1px 1px 3px #666666;
+    -moz-box-shadow: 1px 1px 3px #666666;
+    box-shadow: 1px 1px 3px #666666;
+    background: #2C2C2C;
+    padding: 2px 5px 2px 4px;
+    cursor: pointer;
+    color: #fff;
+}
+@media(max-width: 480px){
+    button{
+        border-radius: 4px;
+        font-size: 12px;
+    }
+}
+@media(min-width: 480px){
+    button{
+        border-radius: 6px;
+        font-size: 16px;
+    }
+}
+@media(min-width: 640px){
+    button{
+        border-radius: 8px;
+        font-size: 20px;
+    }
+}
+/*** GAME ***/
+.node {
+    fill: #000;
+}
+.link {
+    stroke: #000;
+}
+.string{
+    stroke: #222;
+    stroke-width: 3px;
+}
+.platform{
+    stroke: #110211;
+    stroke-width: 3px;
+}
+/*** MidMenu***/
+#menuHolder{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+}
+#midMenu{
+    position: relative;
+    left: -50%;
+    text-align: center;
+}
+#score{
+    font-family: kontrapunkt;
+    fill: #000;
+}
+#final{
+    font-family: kontrapunkt;
+    fill: #000;
+    text-align: center;
+}
+.share{
+    font-family: kontrapunkt;
+    margin-top: 3px;
+}
+.feed{
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 3px #666666;
+    -moz-box-shadow: 1px 1px 3px #666666;
+    box-shadow: 1px 1px 3px #666666;
+    background: #a8a8a8;
+    padding: 2px 5px 2px 4px;
+    margin: 0 15px;
+    cursor: pointer
+}
+.feed:hover {
+    background: #dbdbdb;
+    text-decoration: none;
+}
+.controle{
+    margin: 0 14px;
+}
+/*** Credit ***/
+.content{
+    margin: 0 8px;
+}
+.creditItem{
+    line-height: 24px;
+    font-size: 20px;
+}
+.creditImage{
+    border: #110211 solid 1px;
+    height: 24px;
+    width: 24px;
+}
+.creditMedia{
+    margin: 2px;
+    vertical-align: middle;
+}
+/*** achivement ***/
+.achivement{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    margin:1%;
+    background-color: #a8a8a8;
+    cursor: pointer;
+    font-size: 18px;
+}
+@media(max-width: 480px){
+    .achivement{
+        font-size: 12px;
+    }
+}
+@media(min-width: 480px){
+    .achivement{
+        font-size: 14px;
+    }
+}
+@media(min-width: 640px){
+    .achivement{
+        font-size: 16px;
+    }
+}
+.achivement img{
+    width: 50%;
+}
+.achivement:hover{
+    background-color: #dbdbdb;
+}
+.hidden { 
+    display: none; 
+}
+.tooltip {
+    position: absolute;
+    height: 50%;
+    top:0;
+    left:0;
+    color: #fff; 
+    background: #232; 
+    text-shadow: #000 0 1px 0;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 0px #a6a6a6; 
+    opacity: 0.8;
+    min-width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+#achvHolder{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 0px #a6a6a6;
+    background: #232;
+    color: #fff;
+    text-align: center;
+    width:20%;
+}
+@media(max-width: 480px){
+    #achvHolder p{
+        font-size: 12px;
+    }
+}
+@media(min-width: 480px){
+    #achvHolder p{
+        font-size: 14px;
+    }
+}
+@media(min-width: 640px){
+    #achvHolder p{
+        font-size: 16px;
+    }
+}
+.stageAchivements{
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 0px #a6a6a6;
+    background: #232;
+    color: #fff;
+    text-align: center;
+    width:100%;
+}
+.achivementCollapser{
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px #a6a6a6;
+    background: #eee;
+    color: #232;
+    margin:8px 1%;
+    width: 98%;
+}
+.achivementCollapser:active{
+    box-shadow: 0px 0px 4px 2px #66a6a6;
+}
+#best{
+    font-size: 24px;
+}
+.collapsible{
+    float: right;
+    margin: 8px;
+}
+.collapsible-active{
+    margin-top: 2px;
+}
+.reward{
+    color: #111;
+    text-shadow: #eee 0 1px 0;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 0px #000000;
+    min-width: 100%;
+}
+.reward-svg{
+    height: 60px;
+}
+/**** levels ****/
+.level{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    margin:1%;
+    background-color: #a8a8a8;
+    cursor: pointer;
+    font-size: 18px;
+}
+#starHolder{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 0px #a6a6a6;
+    background: #eee;
+    color: #fff;
+    text-align: center;
+    width:20%;
+}

@@ -1,0 +1,4 @@
+node_modules/
+public/vendors/d3/
+public/vendors/socket.io-client/
+nbproject/

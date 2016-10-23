@@ -1,0 +1,58 @@
+[
+    {
+        "time": 50,
+        "type": "azotobacter",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 90,
+        "type": "bacillus",
+        "start": "left",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 130,
+        "type": "hantavirus",
+        "start": "bot",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 170,
+        "type": "pseudomonas",
+        "start": "right",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 210,
+        "type": "clostridium",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 250,
+        "type": "ebola",
+        "start": "left",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 280,
+        "type": "neisseria",
+        "start": "bot",
+        "speedMin": 1,
+        "speedRange": 2
+    },
+    {
+        "time": 310,
+        "type": "staphylocoque",
+        "start": "right",
+        "speedMin": 1,
+        "speedRange": 2
+    }
+]

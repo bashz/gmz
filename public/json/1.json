@@ -1,0 +1,23 @@
+[
+    {
+        "time": 50,
+        "type": "azotobacter",
+        "start": "top",
+        "speedMin": 0.5,
+        "speedRange": 1
+    },
+    {
+        "time": 125,
+        "type": "azotobacter",
+        "start": "top",
+        "speedMin": 0.5,
+        "speedRange": 1
+    },
+    {
+        "time": 225,
+        "type": "pseudomonas",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 1
+    }
+]

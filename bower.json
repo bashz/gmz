@@ -1,0 +1,10 @@
+{
+  "name": "sperman",
+  "version": "0.0.1",
+  "description": "fun reflex game",
+  "license": "GNU GPL2",
+  "dependencies": {
+    "socket.io-client" : "1.5.0",
+    "d3": "~3.5.15"
+  }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "time": 50,
+        "type": "hantavirus",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 1
+    },
+    {
+        "time": 100,
+        "type": "ebola",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 1
+    },
+    {
+        "time": 150,
+        "type": "azotobacter",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 1
+    },
+    {
+        "time": 200,
+        "type": "pseudomonas",
+        "start": "top",
+        "speedMin": 1,
+        "speedRange": 1
+    },
+    {
+        "time": 250,
+        "type": "clostridium",
+        "start": "right",
+        "speedMin": 3,
+        "speedRange": 1
+    },
+    {
+        "time": 300,
+        "type": "clostridium",
+        "start": "left",
+        "speedMin": 3,
+        "speedRange": 1
+    }
+]

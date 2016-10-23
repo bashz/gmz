@@ -1,0 +1,49 @@
+/* 
+    Created on : 31 mai 2015, 02:55:59
+    Author     : bechir
+*/
+@font-face {font-family: kontrapunkt; src: url('../vendors/kontrapunkt/Bold/KontrBol.ttf');}
+body{
+    font-family: kontrapunkt;
+    color: #ffffff;
+    text-align: center;
+}
+#homepage{
+    background-color: #000;
+}
+#menu{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.btn {
+    display: block;
+    margin: 12px;
+    background: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #e6e6e6);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #e6e6e6);
+    background-image: -o-linear-gradient(top, #f0f0f0, #e6e6e6);
+    background-image: linear-gradient(to bottom, #f0f0f0, #e6e6e6);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #ffffff;
+    -moz-box-shadow: 0px 1px 3px #ffffff;
+    box-shadow: 0px 1px 3px #ffffff;
+    font-family: Arial;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: -moz-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: -o-linear-gradient(top, #ffffff, #f0f0f0);
+    background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    text-decoration: none;
+}

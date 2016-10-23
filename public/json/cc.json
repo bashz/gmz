@@ -1,0 +1,115 @@
+{
+    "images": [
+        {
+            "source": "https://thenounproject.com/term/spider/11862",
+            "name": "Spider",
+            "file": "images/icons/spider48.png",
+            "artist": "Gergely Korinek",
+            "url": "https://thenounproject.com/bluecube/",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "https://thenounproject.com/term/spider-web/96486/",
+            "name": "Spider Web",
+            "file": "images/web48.png",
+            "artist": "Lloyd Humphreys",
+            "url": "https://thenounproject.com/Lloyd/",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "https://thenounproject.com/term/cell-phone-vibrate/192632",
+            "name": "Cell Phone Vibrate",
+            "file": "images/vibon48.png",
+            "artist": "Danil Polshin",
+            "url": "https://thenounproject.com/everydaytemplate/",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "https://thenounproject.com/term/smartphone/192639",
+            "name": "Smartphone",
+            "file": "images/viboff48.png",
+            "artist": "Danil Polshin",
+            "url": "https://thenounproject.com/everydaytemplate/",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "https://thenounproject.com/term/volume/67676",
+            "name": "Volume",
+            "file": "images/sfxon48.png",
+            "artist": "David Francisco",
+            "url": "https://thenounproject.com/davidfrancisco/",
+            "copyright": "Public Domain"
+        },
+        {
+            "source": "https://thenounproject.com/term/mute/67675",
+            "name": "Mute",
+            "file": "images/sfxoff48.png",
+            "artist": "David Francisco",
+            "url": "https://thenounproject.com/davidfrancisco/",
+            "copyright": "Public Domain"
+        },
+        {
+            "source": "https://thenounproject.com/term/back/12626",
+            "name": "Back",
+            "file": "images/back48.png",
+            "artist": "Lilian Midori",
+            "url": "https://thenounproject.com/lilianmfukuhara/",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "https://thenounproject.com/term/refresh/9959",
+            "name": "Refresh",
+            "file": "images/restart48.png",
+            "artist": "Amos",
+            "url": "https://thenounproject.com/amos/",
+            "copyright": "Public Domain"
+        },
+        {
+            "source": "#",
+            "name": "Wall",
+            "file": "images/bgs/bg0.png",
+            "artist": "Neila Zghidi",
+            "url": "https://thenounproject.com/neilazghidi/",
+            "copyright": "Public Domain"
+        },
+        {
+            "source": "http://www.kontrapunkt.com/type",
+            "name": "Fonts",
+            "file": "",
+            "artist": "Kontrapunkt A/S",
+            "url": "http://kontrapunkt.com/",
+            "copyright": "CC-BY-SA 3.0"
+        }
+    ],
+    "sounds": [
+        {
+            "source": "http://freesound.org/people/qubodup/sounds/172660/",
+            "name": "Boing Jump",
+            "file": "audio/jump.ogg",
+            "artist": "Iwan Gabovitch",
+            "url": "http://qubodup.net",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "http://beta.freesound.org/people/cfork/sounds/7967/",
+            "name": "Boing Raw",
+            "file": "audio/jump.ogg",
+            "artist": "cfork",
+            "url": "http://freesound.org/people/cfork/",
+            "copyright": "CC-BY 3.0"
+        },
+        {
+            "source": "http://opengameart.org/content/lose-music-3",
+            "name": "Lose Music #3",
+            "file": "audio/lose.ogg",
+            "artist": "remaxim",
+            "url": "http://opengameart.org/users/remaxim",
+            "copyright": "CC-BY-SA 3.0"
+        }
+    ],
+    "licenses": {
+        "CC-BY-SA 3.0": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "CC-BY 3.0": "http://creativecommons.org/licenses/by/3.0/",
+        "Public Domain": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+}
